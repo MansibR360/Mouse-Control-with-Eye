@@ -1,5 +1,7 @@
 # Eye Mouse
 
+[![tests](https://github.com/MansibR360/Mouse-Control-with-Eye/actions/workflows/tests.yml/badge.svg)](https://github.com/MansibR360/Mouse-Control-with-Eye/actions/workflows/tests.yml)
+
 **A hands-free mouse that runs on any webcam.** Move the cursor with your eyes, wink to click, and hold still to dwell-click. No extra hardware.
 
 Built for people who can't comfortably use a mouse (RSI, motor impairments, or hands that are busy), and for anyone curious what face tracking can do on a normal laptop.
