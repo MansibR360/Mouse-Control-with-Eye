@@ -1,0 +1,29 @@
+[project]
+name = "eye-mouse"
+dynamic = ["version"]
+description = "A hands-free mouse: move with your eyes, wink to click."
+readme = "README.md"
+requires-python = ">=3.9,<3.13"
+license = { text = "MIT" }
+authors = [{ name = "Mansib Yasir" }]
+dependencies = ["opencv-python>=4.8", "mediapipe>=0.10.9,<0.10.22", "pyautogui>=0.9.54"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Adaptive Technologies",
+]
+
+[project.urls]
+Homepage = "https://github.com/MansibR360/Mouse-Control-with-Eye"
+
+[project.scripts]
+eye-mouse = "eye_mouse.app:main"
+
+[tool.setuptools]
+packages = ["eye_mouse"]
+
+[tool.setuptools.dynamic]
+version = { attr = "eye_mouse.__version__" }
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
